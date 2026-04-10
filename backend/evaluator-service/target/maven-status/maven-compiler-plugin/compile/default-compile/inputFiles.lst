@@ -1,0 +1,17 @@
+/Users/bernardo/Desktop/Tareas/Sexto_semestre/Web2026-main/TutorBot/tutorbot-campus/backend/evaluator-service/src/main/java/com/tutorbot/evaluator/EvaluatorServiceApplication.java
+/Users/bernardo/Desktop/Tareas/Sexto_semestre/Web2026-main/TutorBot/tutorbot-campus/backend/evaluator-service/src/main/java/com/tutorbot/evaluator/agent/EvaluatorAgent.java
+/Users/bernardo/Desktop/Tareas/Sexto_semestre/Web2026-main/TutorBot/tutorbot-campus/backend/evaluator-service/src/main/java/com/tutorbot/evaluator/config/DatabaseHealthCheck.java
+/Users/bernardo/Desktop/Tareas/Sexto_semestre/Web2026-main/TutorBot/tutorbot-campus/backend/evaluator-service/src/main/java/com/tutorbot/evaluator/config/EvaluatorInfrastructureConfig.java
+/Users/bernardo/Desktop/Tareas/Sexto_semestre/Web2026-main/TutorBot/tutorbot-campus/backend/evaluator-service/src/main/java/com/tutorbot/evaluator/config/OllamaConfig.java
+/Users/bernardo/Desktop/Tareas/Sexto_semestre/Web2026-main/TutorBot/tutorbot-campus/backend/evaluator-service/src/main/java/com/tutorbot/evaluator/controller/EvaluatorController.java
+/Users/bernardo/Desktop/Tareas/Sexto_semestre/Web2026-main/TutorBot/tutorbot-campus/backend/evaluator-service/src/main/java/com/tutorbot/evaluator/dto/EvaluationMapper.java
+/Users/bernardo/Desktop/Tareas/Sexto_semestre/Web2026-main/TutorBot/tutorbot-campus/backend/evaluator-service/src/main/java/com/tutorbot/evaluator/dto/EvaluationRequest.java
+/Users/bernardo/Desktop/Tareas/Sexto_semestre/Web2026-main/TutorBot/tutorbot-campus/backend/evaluator-service/src/main/java/com/tutorbot/evaluator/dto/EvaluationResponse.java
+/Users/bernardo/Desktop/Tareas/Sexto_semestre/Web2026-main/TutorBot/tutorbot-campus/backend/evaluator-service/src/main/java/com/tutorbot/evaluator/event/EvaluationCompletedEvent.java
+/Users/bernardo/Desktop/Tareas/Sexto_semestre/Web2026-main/TutorBot/tutorbot-campus/backend/evaluator-service/src/main/java/com/tutorbot/evaluator/event/EvaluatorEventListener.java
+/Users/bernardo/Desktop/Tareas/Sexto_semestre/Web2026-main/TutorBot/tutorbot-campus/backend/evaluator-service/src/main/java/com/tutorbot/evaluator/event/StudentAnsweredEvent.java
+/Users/bernardo/Desktop/Tareas/Sexto_semestre/Web2026-main/TutorBot/tutorbot-campus/backend/evaluator-service/src/main/java/com/tutorbot/evaluator/model/EvaluationResult.java
+/Users/bernardo/Desktop/Tareas/Sexto_semestre/Web2026-main/TutorBot/tutorbot-campus/backend/evaluator-service/src/main/java/com/tutorbot/evaluator/ollama/OllamaDto.java
+/Users/bernardo/Desktop/Tareas/Sexto_semestre/Web2026-main/TutorBot/tutorbot-campus/backend/evaluator-service/src/main/java/com/tutorbot/evaluator/ollama/OllamaService.java
+/Users/bernardo/Desktop/Tareas/Sexto_semestre/Web2026-main/TutorBot/tutorbot-campus/backend/evaluator-service/src/main/java/com/tutorbot/evaluator/repository/EvaluationResultRepository.java
+/Users/bernardo/Desktop/Tareas/Sexto_semestre/Web2026-main/TutorBot/tutorbot-campus/backend/evaluator-service/src/main/java/com/tutorbot/evaluator/service/EvaluationService.java

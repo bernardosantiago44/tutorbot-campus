@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="gap-detector-service">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/backend/gap-detector-service/db/gap-detector-service.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

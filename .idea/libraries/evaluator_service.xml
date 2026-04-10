@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="evaluator-service">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/backend/evaluator-service/db/evaluator-service.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

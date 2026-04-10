@@ -1,0 +1,8 @@
+com/tutorbot/evaluator/model/EvaluationResult.class
+com/tutorbot/evaluator/config/DatabaseHealthCheck.class
+com/tutorbot/evaluator/repository/EvaluationResultRepository.class
+com/tutorbot/evaluator/controller/EvaluatorController.class
+com/tutorbot/evaluator/service/EvaluationService.class
+com/tutorbot/evaluator/agent/EvaluatorAgent.class
+com/tutorbot/evaluator/config/EvaluatorInfrastructureConfig.class
+com/tutorbot/evaluator/EvaluatorServiceApplication.class
