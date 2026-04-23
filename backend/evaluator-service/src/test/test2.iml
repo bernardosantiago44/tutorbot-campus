@@ -10,5 +10,6 @@
     <orderEntry type="module" module-name="main" />
     <orderEntry type="library" scope="TEST" name="Maven: org.mockito:mockito-core:5.11.0" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.junit.jupiter:junit-jupiter-api:5.10.3" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.springframework.data:spring-data-jpa:3.3.2" level="project" />
   </component>
 </module>
