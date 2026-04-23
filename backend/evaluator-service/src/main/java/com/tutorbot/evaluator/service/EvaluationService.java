@@ -25,11 +25,13 @@ public class EvaluationService {
 
     private final EvaluationResultRepository evaluationResultRepository;
     private final OllamaService ollamaService;
+    private final EvaluationGuardService guard;
 
     public EvaluationService(EvaluationResultRepository evaluationResultRepository,
-            OllamaService ollamaService) {
+            OllamaService ollamaService, EvaluationGuardService evaluationGuardService) {
         this.evaluationResultRepository = evaluationResultRepository;
         this.ollamaService = ollamaService;
+        this.guard = evaluationGuardService;
     }
 
     public List<EvaluationResponse> findAll() {
@@ -58,6 +60,8 @@ public class EvaluationService {
 
     @Transactional
     public EvaluationResponse evaluate(EvaluationRequest request) {
+        guard.validate(request.studentId(), request.topicId());
+        
         log.info("Evaluating answer for student={} session={}", request.studentId(), request.sessionId());
 
         EvaluationResult entity = EvaluationMapper.toEntity(request);

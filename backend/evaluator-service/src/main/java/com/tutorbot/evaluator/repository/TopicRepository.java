@@ -8,10 +8,10 @@ import org.springframework.data.repository.query.Param;
 import java.util.Optional;
 
 public interface TopicRepository extends JpaRepository<Topic, Long> {
-    @Query("select topic " +
-            "from Topics " +
-            "where topic.id = :topicId" +
-            "  and topic.active = true")
+    @Query("select t " +
+            "from Topic t " + // Changed 'Topics' to 'Topic'
+            "where t.id = :topicId " +
+            "  and t.active = true")
     Optional<Topic> findActiveById(@Param("topicId") Long topicId);
 
     @Query("SELECT CASE " +
@@ -21,6 +21,6 @@ public interface TopicRepository extends JpaRepository<Topic, Long> {
             "END " +
             "FROM Topic t " +
             "WHERE t.id = :topicId" +
-            "  AND t.skill.active = true")
+            "  AND t.skill.active = 1")
     Boolean isSkillActiveByTopicId(@Param("topicId") Long topicId);
 }
